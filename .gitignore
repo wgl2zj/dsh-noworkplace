@@ -1,0 +1,4 @@
+node_modules/
+pnpm-lock.yaml
+# 本机管理台账不入公开仓库
+台账.md

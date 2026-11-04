@@ -1,0 +1,16 @@
+{
+  "name": "dsh-noworkspace",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Keeps a fixed no-workspace scratch workspace at ~/.dsh/scratch for quick one-off conversations in DeepSeek Harness",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": ["index.js", "cordis.patch.yml", "locale/en.json", "locale/zh.json", "icon.svg"],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" }
+  }
+}

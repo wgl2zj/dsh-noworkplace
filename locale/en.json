@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Scratch Workspace (dsh-noworkplace)",
+    "description": "Keeps a fixed 'No workspace' workspace at ~/.dsh/scratch so one-off conversations never need a folder pick."
+  }
+}
