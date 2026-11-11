@@ -14,22 +14,20 @@ DSH 桌面版默认要求先有一个工作区（工作文件夹）才能开始�
 
 ## 安装
 
-插件以本地目录形式安装进 DSH 档案（profile）。任选其一：
+**方式一：npm 一键安装（推荐）**
 
-**方式一：DSH 会话内（推荐）**
+```bash
+dsh plugin --profile desktop add dsh-noworkspace
+```
 
-在任意 DSH 会话里让助手执行：用 `plugin_manager` 工具 `install_bundle`，目标为本仓库的本地克隆目录。
-
-**方式二：命令行**
+**方式二：从源码安装**
 
 ```bash
 git clone https://github.com/wgl2zj/dsh-noworkplace.git
-cd dsh-noworkplace
-# 在 DSH 会话中，或使用应用自带运行时：
-# plugin_manager: install_bundle, target = 本目录绝对路径
+dsh plugin --profile desktop add link:<克隆目录绝对路径>
 ```
 
-安装后即时生效（热加载），侧栏会出现名为「无工作区」的工作区。
+安装后即时生效（热加载，无需重启），侧栏会出现名为「无工作区」的工作区。
 
 ## 工作原理
 

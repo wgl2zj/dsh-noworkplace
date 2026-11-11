@@ -1,9 +1,24 @@
 {
   "name": "dsh-noworkspace",
   "version": "1.0.0",
-  "private": true,
-  "type": "module",
   "description": "Keeps a fixed no-workspace scratch workspace at ~/.dsh/scratch for quick one-off conversations in DeepSeek Harness",
+  "license": "MIT",
+  "author": "wgl2zj",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wgl2zj/dsh-noworkplace.git"
+  },
+  "homepage": "https://github.com/wgl2zj/dsh-noworkplace#readme",
+  "bugs": {
+    "url": "https://github.com/wgl2zj/dsh-noworkplace/issues"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "workspace"
+  ],
   "exports": {
     ".": "./index.js",
     "./locale/*.json": "./locale/*.json",
